@@ -6,10 +6,9 @@
       "image": {
         "name": "simplews",
         "origin": {
-          "type": "docker-file",
+          "type": "cycle",
           "details": {
-            "context_dir": "/",
-            "build_file": "/Dockerfile"
+            "source_id": "60f0d9e38610edf27ec71239"
           }
         }
       },
@@ -31,9 +30,6 @@
         "origin": {
           "type": "docker-file",
           "details": {
-            "repo": {
-              "url": "https://github.com/aubuchcl/build-dir-two.git"
-            },
             "context_dir": "/",
             "build_file": "/Dockerfile"
           }
