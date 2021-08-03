@@ -6,7 +6,7 @@
       "image": {
         "name": "simplews",
         "origin": {
-          "type": "cycle",
+          "type": "cycle-source",
           "details": {
             "source_id": "61099b2030bdb52d6b9281ca"
           }
